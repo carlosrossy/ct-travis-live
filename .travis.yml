@@ -1,7 +1,13 @@
 language: python
 python:
   - "3.10"
- 
+
+# Antes de executar os testes, você precisa instalar as dependências necessárias,
+# que incluem o pytest.
+install:
+  - pip install pytest
+
+# Comandos para executar os testes. Neste caso, você executa o pytest no arquivo "teste.py".
 script:
   - pytest teste.py
 
