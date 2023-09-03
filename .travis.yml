@@ -7,7 +7,7 @@ python:
 install:
   - pip install pytest
 
-# Comandos para executar os testes. Neste caso, você executa o pytest no arquivo "teste.py".
+# Comandos para executar os testes. Neste caso, você executa o pytest no arquivo "teste.py"
 script:
   - pytest teste.py
 
